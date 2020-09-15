@@ -1,0 +1,45 @@
+.btn{
+    background-color: black;
+    padding: 30px;
+
+}
+
+.firstbtn{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    padding: 10px 20px;
+    transition: background 500ms;
+}
+.secondbtn{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+    transition: 500ms;
+}
+.thirdbtn{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+    transition: 500ms;
+}
+
+.firstbtn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+}
+.secondbtn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+    transform: scale(1.5);
+}
+.thirdbtn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+    transform: translateX(30px);
+}
