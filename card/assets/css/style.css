@@ -90,8 +90,8 @@
       -ms-flex-align: center;
           align-items: center;
   color: rgba(155, 155, 155, 0.8);
-  -webkit-transition: 0ms;
-  transition: 0ms;
+  -webkit-transition: 300ms;
+  transition: 300ms;
 }
 
 .card-footer svg {
